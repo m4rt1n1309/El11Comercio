@@ -1,27 +1,18 @@
-
-
-
-
 import { BrowserRouter } from "react-router-dom";
 
 import { AppRouter } from "./router/AppRouter";
 
-import { Footer } from "./components/Footer"
+import { Footer } from "./sections/Footer";
 import { NavBar } from "./components/NavBar";
-
 
 function App() {
   return (
     <>
-
-      
-
       <BrowserRouter>
-        {/* <NavBar /> */}
+        <NavBar />
         <AppRouter />
         <Footer />
       </BrowserRouter>
-
     </>
   );
 }
