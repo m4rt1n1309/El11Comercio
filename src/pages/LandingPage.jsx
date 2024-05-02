@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Header } from "../sections/Header";
+import Hero from "../sections/Hero";
 
 export const LandingPage = () => {
   return (
-    <div>LandingPage</div>
-  )
-}
+    <>
+      <Hero />
+      <div>LandingPage</div>
+    </>
+  );
+};
