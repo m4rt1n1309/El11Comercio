@@ -2,6 +2,7 @@ import React from "react";
 import { Header } from "../sections/Header";
 import Hero from "../sections/Hero";
 import PopularProducts from "../sections/PopularProducts";
+import SuperQuality from "../sections/SuperQuality";
 
 export const LandingPage = () => {
   return (
@@ -9,6 +10,9 @@ export const LandingPage = () => {
       <Hero />
       <section className="padding">
         <PopularProducts />
+      </section>
+      <section className="padding">
+        <SuperQuality />
       </section>
     </>
   );
