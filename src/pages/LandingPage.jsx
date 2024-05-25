@@ -3,6 +3,7 @@ import { Header } from "../sections/Header";
 import Hero from "../sections/Hero";
 import PopularProducts from "../sections/PopularProducts";
 import SuperQuality from "../sections/SuperQuality";
+import Services from "../sections/Services";
 
 export const LandingPage = () => {
   return (
@@ -13,6 +14,9 @@ export const LandingPage = () => {
       </section>
       <section className="padding">
         <SuperQuality />
+      </section>
+      <section className="padding">
+        <Services />
       </section>
     </>
   );
